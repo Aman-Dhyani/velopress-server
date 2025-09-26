@@ -1,0 +1,27 @@
+{
+  "name": "velopress-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aman dhyani",
+  "license": "ISC",
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "cors": "^2.8.5",
+    "critical": "^7.2.1",
+    "cssnano": "^7.0.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "postcss": "^8.5.3",
+    "postcss-discard-duplicates": "^7.0.1",
+    "postcss-safe-parser": "^7.0.1",
+    "purgecss": "^7.0.2"
+  },
+  "description": ""
+}
