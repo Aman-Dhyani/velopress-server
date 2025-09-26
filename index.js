@@ -3,9 +3,10 @@ import cors from "cors";
 import { reduceUnusedCss } from "./purge/reduceUnusedCss.js";
 import { generateCriticalCss } from "./critical/critical.js";
 import { removeDuplicateCss } from "./utils/removeDuplicateCss.js";
+import "dotenv"
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 4000;
 
 // Middleware to parse JSON request bodies
 app.use(express.json());

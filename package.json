@@ -15,6 +15,7 @@
     "cors": "^2.8.5",
     "critical": "^7.2.1",
     "cssnano": "^7.0.7",
+    "dotenv": "^17.2.2",
     "express": "^4.21.2",
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
