@@ -6,7 +6,7 @@ import { removeDuplicateCss } from "./utils/removeDuplicateCss.js";
 import "dotenv"
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 3000;
 
 // Middleware to parse JSON request bodies
 app.use(express.json());
@@ -105,4 +105,5 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`Velopress server running at http://localhost:${port}`);
 });
+
 
