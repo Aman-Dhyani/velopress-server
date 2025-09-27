@@ -97,7 +97,7 @@ app.post("/velopress/purge", async (req, res) => {
   }
 });
 
-app.get("/velopress", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Hello from Velopress root");
 });
 
@@ -105,3 +105,4 @@ app.get("/velopress", (req, res) => {
 app.listen(port, () => {
   console.log(`Velopress server running at http://localhost:${port}`);
 });
+
